@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){ /*CONFIGURAÇÃO TABLET*/
     body{
         background-image: linear-gradient(to top,  #E8ECED,#6f7f85);
     }
     section#login{
         width: 80vw;
-
+        height: 290px;
     }
     section#login > div#imagem{
         float: left;
@@ -19,12 +19,13 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {/*CONFIGURAÇÃO DESKTOP*/
     body{
         background-image: linear-gradient(to top,  #E8ECED,#6f7f85);
     }
     section#login{
-        width: 950px
+        width: 950px;
+        height: 330px;
     }
     section#login > div#imagem{
         float: right;
@@ -39,6 +40,10 @@
       font-size: 2em;
     }
     div#formulario> p{
-        font-size: 1.2em;
+        font-size: 1em;
+    }
+    div#forumulario > p{
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
